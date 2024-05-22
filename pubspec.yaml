@@ -1,0 +1,44 @@
+name: tasks_manage
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  dartz: ^0.10.1
+  another_flushbar: ^1.12.30
+  internet_connection_checker_plus: ^2.2.0
+  dio: ^5.4.3+1
+  get_it: ^7.6.7
+  nb_utils: ^6.1.3
+  hexcolor: ^3.0.1
+  equatable: ^2.0.0
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  min_sdk_android: 21
+
